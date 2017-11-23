@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./popup.css">
+  </head>
+  <body>
+    <h1>GitHub Helper</h1>
+
+    <fieldset class="js-file js-details-container">
+      <legend>Code Details</legend>
+      <button data-fn-name="toggleDetails" data-arg="1">Show</button>
+      <button data-fn-name="toggleDetails" data-arg="0">Hide</button>
+    </fieldset>
+
+    <fieldset class="js-toggle-file-notes">
+      <legend>Comments</legend>
+      <button data-fn-name="toggleComments" data-arg="1">Show</button>
+      <button data-fn-name="toggleComments" data-arg="0">Hide</button>
+    </fieldset>
+
+    <fieldset class="tab-size">
+      <legend>Tab Size</legend>
+      <button data-fn-name="changeTabSize" data-arg="2">2</button>
+      <button data-fn-name="changeTabSize" data-arg="4">4</button>
+      <button data-fn-name="changeTabSize" data-arg="8">8</button>
+    </fieldset>
+
+    <fieldset class="js-file js-details-container">
+      <legend>Ignore Whitespace</legend>
+      <button data-fn-name="ignoreWhitespace" data-arg="1">On</button>
+      <button data-fn-name="ignoreWhitespace" data-arg="0">Off</button>
+    </fieldset>
+
+    <fieldset class="outdated-comment">
+      <legend>Outdated Comments</legend>
+      <button data-fn-name="toggleOutdated" data-arg="1">Show</button>
+      <button data-fn-name="toggleOutdated" data-arg="0">Hide</button>
+    </fieldset>
+
+    <script src="./popup.js"></script>
+  </body>
+</html>
