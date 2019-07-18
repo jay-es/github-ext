@@ -14,6 +14,7 @@ const processList = {
   // コード開く/閉じる
   toggleDetails(sw) {
     domEach(selectors.codeDetails, (el) => {
+      el.classList.toggle('open', sw);
       el.classList.toggle('Details--on', sw);
     });
   },
