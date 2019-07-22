@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "GitHub Helper",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "GitHubのプルリクページを少し使いやすくします！",
   "permissions": ["tabs"],
 
